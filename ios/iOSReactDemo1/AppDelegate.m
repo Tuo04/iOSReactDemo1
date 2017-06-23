@@ -8,6 +8,12 @@
  */
 
 #import "AppDelegate.h"
+#import <RNPush/RNPush.h>
+
+#import <RNCrashes/RNCrashes.h>
+
+#import <RNAnalytics/RNAnalytics.h>
+
 
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
@@ -17,6 +23,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   NSURL *jsCodeLocation;
+
+  [RNPush registerAndEnable];  // Initialize Mobile Center push
+
+  [RNCrashes registerWithCrashDelegate: [[RNCrashesDelegateAlwaysSend alloc] init]];  // Initialize Mobile Center crashes
+
+  [RNAnalytics registerWithInitiallyEnabled:true];  // Initialize Mobile Center analytics
 
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
 

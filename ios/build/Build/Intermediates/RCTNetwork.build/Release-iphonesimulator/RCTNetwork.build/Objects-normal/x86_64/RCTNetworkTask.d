@@ -1,0 +1,10 @@
+dependencies: \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/node_modules/react-native/Libraries/Network/RCTNetworkTask.m \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTLog.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTAssert.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTDefines.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTUtils.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTNetworkTask.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTURLRequestDelegate.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBridgeModule.h

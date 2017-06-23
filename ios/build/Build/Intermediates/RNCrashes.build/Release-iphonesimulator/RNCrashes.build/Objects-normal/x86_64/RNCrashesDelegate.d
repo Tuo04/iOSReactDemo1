@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/node_modules/mobile-center-crashes/ios/RNCrashes/RNCrashesDelegate.m \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/node_modules/mobile-center-crashes/ios/RNCrashes/RNCrashesDelegate.h \
+  ../../../ios/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Modules/module.modulemap \
+  ../../../ios/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog+Utility.h \
+  ../../../ios/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSAbstractLog.h \
+  ../../../ios/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog.h \
+  ../../../ios/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSCrashesDelegate.h \
+  ../../../ios/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSService.h \
+  ../../../ios/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSServiceAbstract.h \
+  ../../../ios/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorReport.h \
+  ../../../ios/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSCrashes.h \
+  ../../../ios/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MobileCenterCrashes.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBridge.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTDefines.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/ios/build/Build/Products/Release-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/bys/Documents/ReactIos/iOSReactDemo1/node_modules/mobile-center-crashes/ios/RNCrashes/RNCrashesUtils.h

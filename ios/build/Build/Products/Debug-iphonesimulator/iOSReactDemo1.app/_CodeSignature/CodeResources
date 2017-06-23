@@ -225,6 +225,10 @@
 		<data>
 		dHBckC5gnXZohFzeQA63bL4nEPQ=
 		</data>
+		<key>MobileCenter-Config.plist</key>
+		<data>
+		IjoG5XxSyTra13d3I89YW8Q3U/k=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
@@ -835,6 +839,17 @@
 			<key>hash2</key>
 			<data>
 			EumUSltFrdloG0RUVEAbQPD0T5u42+KmoWblG2GYwzA=
+			</data>
+		</dict>
+		<key>MobileCenter-Config.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IjoG5XxSyTra13d3I89YW8Q3U/k=
+			</data>
+			<key>hash2</key>
+			<data>
+			q89RX1Z7ogXG0J7O1cjeUg3Bg/c2KDHvFIt4DpM3WCU=
 			</data>
 		</dict>
 		<key>PlugIns/iOSReactDemo1Tests.xctest.dSYM/Contents/Info.plist</key>
