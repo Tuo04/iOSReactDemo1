@@ -46,4 +46,16 @@
   return YES;
 }
 
+- (void)application:(UIApplication *)application
+didReceiveRemoteNotification:(NSDictionary *)userInfo
+fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+  NSDictionary *dictionary = [[userInfo objectForKey:@"aps"] objectForKey:@"alert"];
+  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[dictionary valueForKey:@"title"]
+                                                  message:[dictionary valueForKey:@"body"]
+                                                 delegate:self
+                                        cancelButtonTitle:@"OK"
+                                        otherButtonTitles:nil];
+  [alert show];
+}
+
 @end
