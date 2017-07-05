@@ -25,7 +25,7 @@ export default class iOSReact0705 extends Component {
         </Text>
         <Button
           title="Crash Button"
-          onPress="onCrash"
+          onPress={onCrash}
         />
       </View>
     );
