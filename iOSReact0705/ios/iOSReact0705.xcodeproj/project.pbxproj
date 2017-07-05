@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -12,6 +13,7 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* iOSReact0705Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* iOSReact0705Tests.m */; };
+		03160EECEAC0441695C9A2A6 /* libRNCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8295AC2CF142D6A1EE493A /* libRNCrashes.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -33,13 +35,16 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* iOSReact0705Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* iOSReact0705Tests.m */; };
+		36C1E7D467497FE3F8134726 /* libPods-iOSReact0705Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A85D994386FA0751413837 /* libPods-iOSReact0705Tests.a */; };
+		5B4692A4A46E3EBE93450C9F /* libPods-iOSReact0705-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B384AD6691D731D2DCB3593C /* libPods-iOSReact0705-tvOSTests.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		E8D743FE5D134F8789074F26 /* libRNPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C79E95AC3DC4306BBA9C384 /* libRNPush.a */; };
-		E7D5F921F3C048D58F2BC9AC /* MobileCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8218F8260AC9439982DE450B /* MobileCenter-Config.plist */; };
-		7BB60A165FF843D4A176F888 /* libRNMobileCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE9C6A6F9224042AE6A0E82 /* libRNMobileCenter.a */; };
 		79AC8D118918449BA9CA3C60 /* libRNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C33DF2CA22684F6880F0F824 /* libRNAnalytics.a */; };
-		03160EECEAC0441695C9A2A6 /* libRNCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8295AC2CF142D6A1EE493A /* libRNCrashes.a */; };
+		7BB60A165FF843D4A176F888 /* libRNMobileCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE9C6A6F9224042AE6A0E82 /* libRNMobileCenter.a */; };
+		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		ACA82B133FB5B8D277DD67A0 /* libPods-iOSReact0705-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6625BC87EE22ECB11B8F7CF /* libPods-iOSReact0705-tvOS.a */; };
+		B7E6EBEC10D95C711555C399 /* libPods-iOSReact0705.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130A17748B6A06F62AB02A89 /* libPods-iOSReact0705.a */; };
+		E7D5F921F3C048D58F2BC9AC /* MobileCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8218F8260AC9439982DE450B /* MobileCenter-Config.plist */; };
+		E8D743FE5D134F8789074F26 /* libRNPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C79E95AC3DC4306BBA9C384 /* libRNPush.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,6 +249,8 @@
 		00E356EE1AD99517003FC87E /* iOSReact0705Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSReact0705Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* iOSReact0705Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSReact0705Tests.m; sourceTree = "<group>"; };
+		018D59DC4EE0F8E74382C7B4 /* Pods-iOSReact0705.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReact0705.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReact0705/Pods-iOSReact0705.debug.xcconfig"; sourceTree = "<group>"; };
+		130A17748B6A06F62AB02A89 /* libPods-iOSReact0705.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSReact0705.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* iOSReact0705.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSReact0705.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,20 +261,30 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOSReact0705/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOSReact0705/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1FE9C6A6F9224042AE6A0E82 /* libRNMobileCenter.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libRNMobileCenter.a; path = libRNMobileCenter.a; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* iOSReact0705-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSReact0705-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* iOSReact0705-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOSReact0705-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		337DAD53F588F6EEDABC8AFE /* Pods-iOSReact0705-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReact0705-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReact0705-tvOSTests/Pods-iOSReact0705-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47A85D994386FA0751413837 /* libPods-iOSReact0705Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSReact0705Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A4ECB8AC45BAADC3BF4C39 /* Pods-iOSReact0705.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReact0705.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReact0705/Pods-iOSReact0705.release.xcconfig"; sourceTree = "<group>"; };
+		578C75A5A61849D3EDD176E8 /* Pods-iOSReact0705-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReact0705-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReact0705-tvOS/Pods-iOSReact0705-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		5FDB87A03B364B8CACCFF10F /* RNPush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNPush.xcodeproj; path = "../node_modules/mobile-center-push/ios/RNPush.xcodeproj"; sourceTree = "<group>"; };
+		785B1A0960FA459CB7DB627B /* RNMobileCenter.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNMobileCenter.xcodeproj; path = "../node_modules/mobile-center/ios/RNMobileCenter.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7C79E95AC3DC4306BBA9C384 /* libRNPush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libRNPush.a; path = libRNPush.a; sourceTree = "<group>"; };
+		8218F8260AC9439982DE450B /* MobileCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "MobileCenter-Config.plist"; path = "iOSReact0705/MobileCenter-Config.plist"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		5FDB87A03B364B8CACCFF10F /* RNPush.xcodeproj */ = {isa = PBXFileReference; name = "RNPush.xcodeproj"; path = "../node_modules/mobile-center-push/ios/RNPush.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		7C79E95AC3DC4306BBA9C384 /* libRNPush.a */ = {isa = PBXFileReference; name = "libRNPush.a"; path = "libRNPush.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		8218F8260AC9439982DE450B /* MobileCenter-Config.plist */ = {isa = PBXFileReference; name = "MobileCenter-Config.plist"; path = "iOSReact0705/MobileCenter-Config.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
-		785B1A0960FA459CB7DB627B /* RNMobileCenter.xcodeproj */ = {isa = PBXFileReference; name = "RNMobileCenter.xcodeproj"; path = "../node_modules/mobile-center/ios/RNMobileCenter.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		1FE9C6A6F9224042AE6A0E82 /* libRNMobileCenter.a */ = {isa = PBXFileReference; name = "libRNMobileCenter.a"; path = "libRNMobileCenter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		F7CF74A9A03740DE8CD5C56A /* RNAnalytics.xcodeproj */ = {isa = PBXFileReference; name = "RNAnalytics.xcodeproj"; path = "../node_modules/mobile-center-analytics/ios/RNAnalytics.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		C33DF2CA22684F6880F0F824 /* libRNAnalytics.a */ = {isa = PBXFileReference; name = "libRNAnalytics.a"; path = "libRNAnalytics.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		F3917232530B4EE08746209A /* RNCrashes.xcodeproj */ = {isa = PBXFileReference; name = "RNCrashes.xcodeproj"; path = "../node_modules/mobile-center-crashes/ios/RNCrashes.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		FE8295AC2CF142D6A1EE493A /* libRNCrashes.a */ = {isa = PBXFileReference; name = "libRNCrashes.a"; path = "libRNCrashes.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		AA472054BEEC903C4A81F0D7 /* Pods-iOSReact0705Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReact0705Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReact0705Tests/Pods-iOSReact0705Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB9CB6B7868DF226B8B51FD2 /* Pods-iOSReact0705Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReact0705Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReact0705Tests/Pods-iOSReact0705Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF405B1B41CCE1B9E9E21D65 /* Pods-iOSReact0705-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReact0705-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReact0705-tvOSTests/Pods-iOSReact0705-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		B384AD6691D731D2DCB3593C /* libPods-iOSReact0705-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSReact0705-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6625BC87EE22ECB11B8F7CF /* libPods-iOSReact0705-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSReact0705-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33DF2CA22684F6880F0F824 /* libRNAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libRNAnalytics.a; path = libRNAnalytics.a; sourceTree = "<group>"; };
+		EF9E6BBAC6651E837A4034DA /* Pods-iOSReact0705-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReact0705-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReact0705-tvOS/Pods-iOSReact0705-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F3917232530B4EE08746209A /* RNCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCrashes.xcodeproj; path = "../node_modules/mobile-center-crashes/ios/RNCrashes.xcodeproj"; sourceTree = "<group>"; };
+		F7CF74A9A03740DE8CD5C56A /* RNAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAnalytics.xcodeproj; path = "../node_modules/mobile-center-analytics/ios/RNAnalytics.xcodeproj"; sourceTree = "<group>"; };
+		FE8295AC2CF142D6A1EE493A /* libRNCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libRNCrashes.a; path = libRNCrashes.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				36C1E7D467497FE3F8134726 /* libPods-iOSReact0705Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +316,7 @@
 				7BB60A165FF843D4A176F888 /* libRNMobileCenter.a in Frameworks */,
 				79AC8D118918449BA9CA3C60 /* libRNAnalytics.a in Frameworks */,
 				03160EECEAC0441695C9A2A6 /* libRNCrashes.a in Frameworks */,
+				B7E6EBEC10D95C711555C399 /* libPods-iOSReact0705.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +332,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				ACA82B133FB5B8D277DD67A0 /* libPods-iOSReact0705-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +340,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4692A4A46E3EBE93450C9F /* libPods-iOSReact0705-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +510,8 @@
 				00E356EF1AD99517003FC87E /* iOSReact0705Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				8218F8260AC9439982DE450B /* MobileCenter-Config.plist */,
+				BACD6190C808D26B858159A8 /* Pods */,
+				A2FEEB1ED6530F531FB3FF4C /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -505,6 +528,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A2FEEB1ED6530F531FB3FF4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				130A17748B6A06F62AB02A89 /* libPods-iOSReact0705.a */,
+				B6625BC87EE22ECB11B8F7CF /* libPods-iOSReact0705-tvOS.a */,
+				B384AD6691D731D2DCB3593C /* libPods-iOSReact0705-tvOSTests.a */,
+				47A85D994386FA0751413837 /* libPods-iOSReact0705Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BACD6190C808D26B858159A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				018D59DC4EE0F8E74382C7B4 /* Pods-iOSReact0705.debug.xcconfig */,
+				49A4ECB8AC45BAADC3BF4C39 /* Pods-iOSReact0705.release.xcconfig */,
+				578C75A5A61849D3EDD176E8 /* Pods-iOSReact0705-tvOS.debug.xcconfig */,
+				EF9E6BBAC6651E837A4034DA /* Pods-iOSReact0705-tvOS.release.xcconfig */,
+				337DAD53F588F6EEDABC8AFE /* Pods-iOSReact0705-tvOSTests.debug.xcconfig */,
+				AF405B1B41CCE1B9E9E21D65 /* Pods-iOSReact0705-tvOSTests.release.xcconfig */,
+				AB9CB6B7868DF226B8B51FD2 /* Pods-iOSReact0705Tests.debug.xcconfig */,
+				AA472054BEEC903C4A81F0D7 /* Pods-iOSReact0705Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -512,9 +561,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "iOSReact0705Tests" */;
 			buildPhases = (
+				112D5A575E147DFA7FB812B6 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				31201520D67D01F6C76CDED0 /* [CP] Embed Pods Frameworks */,
+				C7FF840E9A18197FACD8F2BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -530,10 +582,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "iOSReact0705" */;
 			buildPhases = (
+				78BAF9E30689E37795ADCCCD /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				CFA5394B19A9ADE82D8591B0 /* [CP] Embed Pods Frameworks */,
+				CCED45519B849504EF0D58BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -548,10 +603,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "iOSReact0705-tvOS" */;
 			buildPhases = (
+				6E06EF07D035177B1C2B22A9 /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
 				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+				0FD46C83CAE34BC2665FEBE6 /* [CP] Embed Pods Frameworks */,
+				EEDF6CB19F9A739FD1406476 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -566,9 +624,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "iOSReact0705-tvOSTests" */;
 			buildPhases = (
+				93C138626D4A3696DACECE64 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
+				C3540F754515358D358C992B /* [CP] Embed Pods Frameworks */,
+				C01A6D52FD302A0A11A2244C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -899,6 +960,36 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
+		0FD46C83CAE34BC2665FEBE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSReact0705-tvOS/Pods-iOSReact0705-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		112D5A575E147DFA7FB812B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -912,6 +1003,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		31201520D67D01F6C76CDED0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSReact0705Tests/Pods-iOSReact0705Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E06EF07D035177B1C2B22A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78BAF9E30689E37795ADCCCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93C138626D4A3696DACECE64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C01A6D52FD302A0A11A2244C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSReact0705-tvOSTests/Pods-iOSReact0705-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3540F754515358D358C992B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSReact0705-tvOSTests/Pods-iOSReact0705-tvOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7FF840E9A18197FACD8F2BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSReact0705Tests/Pods-iOSReact0705Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCED45519B849504EF0D58BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSReact0705/Pods-iOSReact0705-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA5394B19A9ADE82D8591B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSReact0705/Pods-iOSReact0705-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEDF6CB19F9A739FD1406476 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSReact0705-tvOS/Pods-iOSReact0705-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -980,21 +1221,23 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9CB6B7868DF226B8B51FD2 /* Pods-iOSReact0705Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modulesmobile-center-pushiosRNPush",
+					"$(SRCROOT)..\node_modulesmobile-centeriosRNMobileCenter",
+					"$(SRCROOT)..\node_modulesmobile-center-analyticsiosRNAnalytics",
+					"$(SRCROOT)..\node_modulesmobile-center-crashesiosRNCrashes",
+				);
 				INFOPLIST_FILE = iOSReact0705Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSReact0705.app/iOSReact0705";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1002,53 +1245,61 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\mobile-center-push\ios\RNPush",
-					"$(SRCROOT)\..\node_modules\mobile-center\ios\RNMobileCenter",
-					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
-					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
 				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSReact0705.app/iOSReact0705";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA472054BEEC903C4A81F0D7 /* Pods-iOSReact0705Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modulesmobile-center-pushiosRNPush",
+					"$(SRCROOT)..\node_modulesmobile-centeriosRNMobileCenter",
+					"$(SRCROOT)..\node_modulesmobile-center-analyticsiosRNAnalytics",
+					"$(SRCROOT)..\node_modulesmobile-center-crashesiosRNCrashes",
+				);
 				INFOPLIST_FILE = iOSReact0705Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSReact0705.app/iOSReact0705";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\mobile-center-push\ios\RNPush",
-					"$(SRCROOT)\..\node_modules\mobile-center\ios\RNMobileCenter",
-					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
-					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
-				);
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018D59DC4EE0F8E74382C7B4 /* Pods-iOSReact0705.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modulesmobile-center-pushiosRNPush",
+					"$(SRCROOT)..\node_modulesmobile-centeriosRNMobileCenter",
+					"$(SRCROOT)..\node_modulesmobile-center-analyticsiosRNAnalytics",
+					"$(SRCROOT)..\node_modulesmobile-center-crashesiosRNCrashes",
+				);
 				INFOPLIST_FILE = iOSReact0705/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1058,21 +1309,22 @@
 				);
 				PRODUCT_NAME = iOSReact0705;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\mobile-center-push\ios\RNPush",
-					"$(SRCROOT)\..\node_modules\mobile-center\ios\RNMobileCenter",
-					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
-					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
-				);
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A4ECB8AC45BAADC3BF4C39 /* Pods-iOSReact0705.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modulesmobile-center-pushiosRNPush",
+					"$(SRCROOT)..\node_modulesmobile-centeriosRNMobileCenter",
+					"$(SRCROOT)..\node_modulesmobile-center-analyticsiosRNAnalytics",
+					"$(SRCROOT)..\node_modulesmobile-center-crashesiosRNCrashes",
+				);
 				INFOPLIST_FILE = iOSReact0705/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1082,18 +1334,12 @@
 				);
 				PRODUCT_NAME = iOSReact0705;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\mobile-center-push\ios\RNPush",
-					"$(SRCROOT)\..\node_modules\mobile-center\ios\RNMobileCenter",
-					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
-					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
-				);
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578C75A5A61849D3EDD176E8 /* Pods-iOSReact0705-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1104,8 +1350,22 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modulesmobile-center-pushiosRNPush",
+					"$(SRCROOT)..\node_modulesmobile-centeriosRNMobileCenter",
+					"$(SRCROOT)..\node_modulesmobile-center-analyticsiosRNAnalytics",
+					"$(SRCROOT)..\node_modulesmobile-center-crashesiosRNCrashes",
+				);
 				INFOPLIST_FILE = "iOSReact0705-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1115,25 +1375,12 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\mobile-center-push\ios\RNPush",
-					"$(SRCROOT)\..\node_modules\mobile-center\ios\RNMobileCenter",
-					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
-					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
-				);
 			};
 			name = Debug;
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9E6BBAC6651E837A4034DA /* Pods-iOSReact0705-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1144,8 +1391,22 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modulesmobile-center-pushiosRNPush",
+					"$(SRCROOT)..\node_modulesmobile-centeriosRNMobileCenter",
+					"$(SRCROOT)..\node_modulesmobile-center-analyticsiosRNAnalytics",
+					"$(SRCROOT)..\node_modulesmobile-center-crashesiosRNCrashes",
+				);
 				INFOPLIST_FILE = "iOSReact0705-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1155,25 +1416,12 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\mobile-center-push\ios\RNPush",
-					"$(SRCROOT)\..\node_modules\mobile-center\ios\RNMobileCenter",
-					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
-					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
-				);
 			};
 			name = Release;
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337DAD53F588F6EEDABC8AFE /* Pods-iOSReact0705-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1185,11 +1433,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "iOSReact0705-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.iOSReact0705-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSReact0705-tvOS.app/iOSReact0705-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1197,11 +1440,17 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.iOSReact0705-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSReact0705-tvOS.app/iOSReact0705-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF405B1B41CCE1B9E9E21D65 /* Pods-iOSReact0705-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1213,11 +1462,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "iOSReact0705-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.iOSReact0705-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSReact0705-tvOS.app/iOSReact0705-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1225,6 +1469,11 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.iOSReact0705-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSReact0705-tvOS.app/iOSReact0705-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
 		};
