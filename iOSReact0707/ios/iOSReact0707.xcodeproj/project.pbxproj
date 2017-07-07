@@ -734,6 +734,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 3D27XEAVGH;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1469,6 +1470,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = iOSReact0707;
+				PROVISIONING_PROFILE = "75e77753-77e2-48eb-9f6a-eac2c9d62b00";
+				PROVISIONING_PROFILE_SPECIFIER = iOSReact0707;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1496,6 +1499,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = iOSReact0707;
+				PROVISIONING_PROFILE = "75e77753-77e2-48eb-9f6a-eac2c9d62b00";
+				PROVISIONING_PROFILE_SPECIFIER = iOSReact0707;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1674,7 +1679,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1709,7 +1714,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
