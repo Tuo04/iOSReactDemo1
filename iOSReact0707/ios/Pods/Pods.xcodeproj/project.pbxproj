@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C4D76D9710F94F9EC528B25663CFA55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		1C63F1B838DD88E9EAEFFB38AE94404C /* Pods-iOSReact0707-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C171673446FC59AC7E10501279C9F5B7 /* Pods-iOSReact0707-tvOSTests-dummy.m */; };
+		44956F70F7B8D5B95E3BE2C4AA11A4FB /* Pods-iOSReact0707Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7B2469B7D1F7A652F08A96784C1E36 /* Pods-iOSReact0707Tests-dummy.m */; };
+		8D7106229902E4463FDE049D34B27242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		C38CDB9093F0C406BCB5AD0C1BD351DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		D7D0F000F4D8545DDB331CCFA8A5BFAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		DCDA643B74D0AF955E4141FDE0F6B1E6 /* Pods-iOSReact0707-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 587B17B652A9741279AA2F3EBD1F7E25 /* Pods-iOSReact0707-tvOS-dummy.m */; };
+		EECAE04225E82A26539C58AF2B40DFE6 /* Pods-iOSReact0707-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60829FD15362AE9B4CDBDC9705A55A38 /* Pods-iOSReact0707-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0603A6A100F42E0213A62C1EB87CD432 /* libPods-iOSReact0707Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iOSReact0707Tests.a"; path = "libPods-iOSReact0707Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F84486B02D263B52B0CBD66AEDE1E26 /* Pods-iOSReact0707-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSReact0707-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		170E8F7E488E068760528C311FB45368 /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterCrashes.framework; path = "MobileCenter-SDK-iOS/MobileCenterCrashes.framework"; sourceTree = "<group>"; };
+		184D47ADC8BE03C0052FAF831173E85E /* Pods-iOSReact0707Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSReact0707Tests.release.xcconfig"; sourceTree = "<group>"; };
+		18B7035F44C2374A9E2FCCA92CECC423 /* MobileCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterPush.framework; path = "MobileCenter-SDK-iOS/MobileCenterPush.framework"; sourceTree = "<group>"; };
+		19974B6B6EF57FF6A9519D314B744880 /* Pods-iOSReact0707-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSReact0707-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AD22910002846095E2EB7C6C24B4C3F /* Pods-iOSReact0707-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSReact0707-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		26592AA9138D88AD02DFA6DC192BDC69 /* Pods-iOSReact0707Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSReact0707Tests-resources.sh"; sourceTree = "<group>"; };
+		2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		361BCB2BBC3012D784A415DD40D5DE9E /* Pods-iOSReact0707-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSReact0707-tvOS-resources.sh"; sourceTree = "<group>"; };
+		43E4A5D8E89EA13A7FA36E4B907A450A /* Pods-iOSReact0707-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSReact0707-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		4DE12F586AC6E03546622E55F97DE0B5 /* Pods-iOSReact0707Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSReact0707Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		55B035173B145FCF21581B18C179A2F5 /* Pods-iOSReact0707Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSReact0707Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		587B17B652A9741279AA2F3EBD1F7E25 /* Pods-iOSReact0707-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSReact0707-tvOS-dummy.m"; sourceTree = "<group>"; };
+		60829FD15362AE9B4CDBDC9705A55A38 /* Pods-iOSReact0707-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSReact0707-dummy.m"; sourceTree = "<group>"; };
+		6574AE9A6BC68388A27D43186543D245 /* libPods-iOSReact0707-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iOSReact0707-tvOS.a"; path = "libPods-iOSReact0707-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FCF3D0FEB408508484DD55CD8407CB /* Pods-iOSReact0707-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSReact0707-acknowledgements.plist"; sourceTree = "<group>"; };
+		824BA8B1C5451D9B545A0A566595CBE3 /* Pods-iOSReact0707-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSReact0707-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		91547A5C6A30C528D9B4A3F190323C9F /* Pods-iOSReact0707-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSReact0707-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91FB9E17FBB55C0D9DFD6299A1814FAC /* libPods-iOSReact0707.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iOSReact0707.a"; path = "libPods-iOSReact0707.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A32341DC31D70FC3E921B84D968B7369 /* Pods-iOSReact0707-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSReact0707-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A68D932FDF551F005B69AFF0A186F237 /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "MobileCenter-SDK-iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
+		A84F4344CEF4D340AAF58F0113E6DFD5 /* Pods-iOSReact0707-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSReact0707-frameworks.sh"; sourceTree = "<group>"; };
+		AD4788335C4BCC5AA3E15E5B62EB49F3 /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = "MobileCenter-SDK-iOS/MobileCenter.framework"; sourceTree = "<group>"; };
+		C171673446FC59AC7E10501279C9F5B7 /* Pods-iOSReact0707-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSReact0707-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		CE6ECD4FA293F063E7FE313357BCDA65 /* Pods-iOSReact0707Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSReact0707Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D26084E5ECEBF3D7CB9628275ADFBB58 /* Pods-iOSReact0707-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSReact0707-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		D6EA9187DE74400F405D62D6E092C5C9 /* Pods-iOSReact0707.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSReact0707.release.xcconfig"; sourceTree = "<group>"; };
+		DA3AE17448336088B418CF6FE45DFDA6 /* Pods-iOSReact0707-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSReact0707-resources.sh"; sourceTree = "<group>"; };
+		DA68AC4D3F4AE64BED975179E2411327 /* Pods-iOSReact0707.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSReact0707.debug.xcconfig"; sourceTree = "<group>"; };
+		DAADF6E1DADD256FFDE163E34C84D026 /* Pods-iOSReact0707-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSReact0707-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		DB7B2469B7D1F7A652F08A96784C1E36 /* Pods-iOSReact0707Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSReact0707Tests-dummy.m"; sourceTree = "<group>"; };
+		DC33DF97D7C1730BC65E38774026C77D /* libPods-iOSReact0707-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iOSReact0707-tvOSTests.a"; path = "libPods-iOSReact0707-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC4D2A97EB29969369C2D974D4EFCC3 /* RNMobileCenterShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNMobileCenterShared.framework; path = RNMobileCenterShared/RNMobileCenterShared.framework; sourceTree = "<group>"; };
+		E0EF88D691A4D6E238E84A5955DCD8B5 /* Pods-iOSReact0707-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSReact0707-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		E456338D08A6A2586910980969DD2E7C /* Pods-iOSReact0707-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSReact0707-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E69E867C5C58224B08A0CF0D1371C1DC /* Pods-iOSReact0707-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSReact0707-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB951D992D5D2F805F75171927E80AFD /* Pods-iOSReact0707Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSReact0707Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30DB09DA122B6822DCF06A5095611DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D0F000F4D8545DDB331CCFA8A5BFAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE7033144124ABCA10233AE3527F088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4D76D9710F94F9EC528B25663CFA55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1B5C82CC1F31281C1A0B60F5B488F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7106229902E4463FDE049D34B27242 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BBFEDF1F6A24B64399F4CDB2CA0E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38CDB9093F0C406BCB5AD0C1BD351DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00EB308B7537A00838EE4269E0161686 /* Pods-iOSReact0707-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				19974B6B6EF57FF6A9519D314B744880 /* Pods-iOSReact0707-tvOS-acknowledgements.markdown */,
+				43E4A5D8E89EA13A7FA36E4B907A450A /* Pods-iOSReact0707-tvOS-acknowledgements.plist */,
+				587B17B652A9741279AA2F3EBD1F7E25 /* Pods-iOSReact0707-tvOS-dummy.m */,
+				D26084E5ECEBF3D7CB9628275ADFBB58 /* Pods-iOSReact0707-tvOS-frameworks.sh */,
+				361BCB2BBC3012D784A415DD40D5DE9E /* Pods-iOSReact0707-tvOS-resources.sh */,
+				1AD22910002846095E2EB7C6C24B4C3F /* Pods-iOSReact0707-tvOS.debug.xcconfig */,
+				DAADF6E1DADD256FFDE163E34C84D026 /* Pods-iOSReact0707-tvOS.release.xcconfig */,
+			);
+			name = "Pods-iOSReact0707-tvOS";
+			path = "Target Support Files/Pods-iOSReact0707-tvOS";
+			sourceTree = "<group>";
+		};
+		0EB9E8078D69361E7D99917E86192BD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD4788335C4BCC5AA3E15E5B62EB49F3 /* MobileCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20F731AE46C73F232AF0C168DC383CF9 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		36B661887B4FC7914F0A91C8A8C2BEB0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C32374E752165A6726A9C64D26BD041D /* Pods-iOSReact0707 */,
+				00EB308B7537A00838EE4269E0161686 /* Pods-iOSReact0707-tvOS */,
+				6B4B4A253B2D72EB99FE2414B3F2E1B3 /* Pods-iOSReact0707-tvOSTests */,
+				590C957AB6A90D75D741C5E4AAB72E0F /* Pods-iOSReact0707Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		58996781A54EE964D7111D73083A18A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		590C957AB6A90D75D741C5E4AAB72E0F /* Pods-iOSReact0707Tests */ = {
+			isa = PBXGroup;
+			children = (
+				55B035173B145FCF21581B18C179A2F5 /* Pods-iOSReact0707Tests-acknowledgements.markdown */,
+				4DE12F586AC6E03546622E55F97DE0B5 /* Pods-iOSReact0707Tests-acknowledgements.plist */,
+				DB7B2469B7D1F7A652F08A96784C1E36 /* Pods-iOSReact0707Tests-dummy.m */,
+				FB951D992D5D2F805F75171927E80AFD /* Pods-iOSReact0707Tests-frameworks.sh */,
+				26592AA9138D88AD02DFA6DC192BDC69 /* Pods-iOSReact0707Tests-resources.sh */,
+				CE6ECD4FA293F063E7FE313357BCDA65 /* Pods-iOSReact0707Tests.debug.xcconfig */,
+				184D47ADC8BE03C0052FAF831173E85E /* Pods-iOSReact0707Tests.release.xcconfig */,
+			);
+			name = "Pods-iOSReact0707Tests";
+			path = "Target Support Files/Pods-iOSReact0707Tests";
+			sourceTree = "<group>";
+		};
+		5F9C926D03085E87105FA1449B98AD75 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0EB9E8078D69361E7D99917E86192BD0 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6B4B4A253B2D72EB99FE2414B3F2E1B3 /* Pods-iOSReact0707-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F84486B02D263B52B0CBD66AEDE1E26 /* Pods-iOSReact0707-tvOSTests-acknowledgements.markdown */,
+				91547A5C6A30C528D9B4A3F190323C9F /* Pods-iOSReact0707-tvOSTests-acknowledgements.plist */,
+				C171673446FC59AC7E10501279C9F5B7 /* Pods-iOSReact0707-tvOSTests-dummy.m */,
+				E0EF88D691A4D6E238E84A5955DCD8B5 /* Pods-iOSReact0707-tvOSTests-frameworks.sh */,
+				824BA8B1C5451D9B545A0A566595CBE3 /* Pods-iOSReact0707-tvOSTests-resources.sh */,
+				E69E867C5C58224B08A0CF0D1371C1DC /* Pods-iOSReact0707-tvOSTests.debug.xcconfig */,
+				A32341DC31D70FC3E921B84D968B7369 /* Pods-iOSReact0707-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-iOSReact0707-tvOSTests";
+			path = "Target Support Files/Pods-iOSReact0707-tvOSTests";
+			sourceTree = "<group>";
+		};
+		6EB79C8A73F9E78C9DDE85047F3DA531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B7035F44C2374A9E2FCCA92CECC423 /* MobileCenterPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72609A3624C3FB62E4C92D30C28701CC /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				C09AD2C19F47C8E24A98CDE9E8562063 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		739D3FB36FDFEF3AC2C4DD286D09AA29 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				6EB79C8A73F9E78C9DDE85047F3DA531 /* Frameworks */,
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		73E22D536272BA018B91231547A75E76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				170E8F7E488E068760528C311FB45368 /* MobileCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B4327DEB9B67A4992555CD1FA621A9C /* RNMobileCenterShared */ = {
+			isa = PBXGroup;
+			children = (
+				9384E7876CEFBFCFF8A5B37A121670FF /* Frameworks */,
+			);
+			name = RNMobileCenterShared;
+			path = RNMobileCenterShared;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A42F72DC1D780481325DD00969B19BB6 /* Frameworks */,
+				910742F4A7D7225537FFE7EB0BE30B5A /* Pods */,
+				DA2EF4ED99E63E8651E3078DD438EA28 /* Products */,
+				36B661887B4FC7914F0A91C8A8C2BEB0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		910742F4A7D7225537FFE7EB0BE30B5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F53C308420881BAB3226D801B8165D97 /* MobileCenter */,
+				7B4327DEB9B67A4992555CD1FA621A9C /* RNMobileCenterShared */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		915A26CD0C84014C8B280CAFC3AEADA8 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				73E22D536272BA018B91231547A75E76 /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		9384E7876CEFBFCFF8A5B37A121670FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFC4D2A97EB29969369C2D974D4EFCC3 /* RNMobileCenterShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A42F72DC1D780481325DD00969B19BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58996781A54EE964D7111D73083A18A5 /* iOS */,
+				20F731AE46C73F232AF0C168DC383CF9 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C09AD2C19F47C8E24A98CDE9E8562063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A68D932FDF551F005B69AFF0A186F237 /* MobileCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C32374E752165A6726A9C64D26BD041D /* Pods-iOSReact0707 */ = {
+			isa = PBXGroup;
+			children = (
+				E456338D08A6A2586910980969DD2E7C /* Pods-iOSReact0707-acknowledgements.markdown */,
+				75FCF3D0FEB408508484DD55CD8407CB /* Pods-iOSReact0707-acknowledgements.plist */,
+				60829FD15362AE9B4CDBDC9705A55A38 /* Pods-iOSReact0707-dummy.m */,
+				A84F4344CEF4D340AAF58F0113E6DFD5 /* Pods-iOSReact0707-frameworks.sh */,
+				DA3AE17448336088B418CF6FE45DFDA6 /* Pods-iOSReact0707-resources.sh */,
+				DA68AC4D3F4AE64BED975179E2411327 /* Pods-iOSReact0707.debug.xcconfig */,
+				D6EA9187DE74400F405D62D6E092C5C9 /* Pods-iOSReact0707.release.xcconfig */,
+			);
+			name = "Pods-iOSReact0707";
+			path = "Target Support Files/Pods-iOSReact0707";
+			sourceTree = "<group>";
+		};
+		DA2EF4ED99E63E8651E3078DD438EA28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FB9E17FBB55C0D9DFD6299A1814FAC /* libPods-iOSReact0707.a */,
+				6574AE9A6BC68388A27D43186543D245 /* libPods-iOSReact0707-tvOS.a */,
+				DC33DF97D7C1730BC65E38774026C77D /* libPods-iOSReact0707-tvOSTests.a */,
+				0603A6A100F42E0213A62C1EB87CD432 /* libPods-iOSReact0707Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F53C308420881BAB3226D801B8165D97 /* MobileCenter */ = {
+			isa = PBXGroup;
+			children = (
+				72609A3624C3FB62E4C92D30C28701CC /* Analytics */,
+				5F9C926D03085E87105FA1449B98AD75 /* Core */,
+				915A26CD0C84014C8B280CAFC3AEADA8 /* Crashes */,
+				739D3FB36FDFEF3AC2C4DD286D09AA29 /* Push */,
+			);
+			name = MobileCenter;
+			path = MobileCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BA1C95BD7CC8E2BEA247C5FBBE6C05D /* Pods-iOSReact0707 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E5BA3C1526FD0B6BCE67B5C2027599 /* Build configuration list for PBXNativeTarget "Pods-iOSReact0707" */;
+			buildPhases = (
+				7C9F0A676C026ED59A9855D10D7E0AEF /* Sources */,
+				5FE7033144124ABCA10233AE3527F088 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iOSReact0707";
+			productName = "Pods-iOSReact0707";
+			productReference = 91FB9E17FBB55C0D9DFD6299A1814FAC /* libPods-iOSReact0707.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4C885612801C9BE3108E9D0CBC5895AB /* Pods-iOSReact0707-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD33E23B195D7AC4DA84632A24362C3F /* Build configuration list for PBXNativeTarget "Pods-iOSReact0707-tvOSTests" */;
+			buildPhases = (
+				4345C7D483A170FB1E66C7C6F171C724 /* Sources */,
+				9F1B5C82CC1F31281C1A0B60F5B488F7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iOSReact0707-tvOSTests";
+			productName = "Pods-iOSReact0707-tvOSTests";
+			productReference = DC33DF97D7C1730BC65E38774026C77D /* libPods-iOSReact0707-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		608E632A59FFD2E9826AA35D52B574BB /* Pods-iOSReact0707-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC983F6A75FB302A43618CA527C7A70 /* Build configuration list for PBXNativeTarget "Pods-iOSReact0707-tvOS" */;
+			buildPhases = (
+				0DE307D1ABE033B15F21A5D7CA9C8722 /* Sources */,
+				30DB09DA122B6822DCF06A5095611DF3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iOSReact0707-tvOS";
+			productName = "Pods-iOSReact0707-tvOS";
+			productReference = 6574AE9A6BC68388A27D43186543D245 /* libPods-iOSReact0707-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6F7D7F3501A05C5E72C536D82E0A181E /* Pods-iOSReact0707Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594FE32E844245D152D0C13D1E4CCF06 /* Build configuration list for PBXNativeTarget "Pods-iOSReact0707Tests" */;
+			buildPhases = (
+				C28A555E17AFD4336566F1DB7AC9B2B7 /* Sources */,
+				E3BBFEDF1F6A24B64399F4CDB2CA0E78 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iOSReact0707Tests";
+			productName = "Pods-iOSReact0707Tests";
+			productReference = 0603A6A100F42E0213A62C1EB87CD432 /* libPods-iOSReact0707Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DA2EF4ED99E63E8651E3078DD438EA28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BA1C95BD7CC8E2BEA247C5FBBE6C05D /* Pods-iOSReact0707 */,
+				608E632A59FFD2E9826AA35D52B574BB /* Pods-iOSReact0707-tvOS */,
+				4C885612801C9BE3108E9D0CBC5895AB /* Pods-iOSReact0707-tvOSTests */,
+				6F7D7F3501A05C5E72C536D82E0A181E /* Pods-iOSReact0707Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DE307D1ABE033B15F21A5D7CA9C8722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDA643B74D0AF955E4141FDE0F6B1E6 /* Pods-iOSReact0707-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4345C7D483A170FB1E66C7C6F171C724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C63F1B838DD88E9EAEFFB38AE94404C /* Pods-iOSReact0707-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9F0A676C026ED59A9855D10D7E0AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECAE04225E82A26539C58AF2B40DFE6 /* Pods-iOSReact0707-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28A555E17AFD4336566F1DB7AC9B2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44956F70F7B8D5B95E3BE2C4AA11A4FB /* Pods-iOSReact0707Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		250EF7537AA06414A0EBCE117D9DBC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		3F4A22DB07EDCFFCDFE797C1B5B9FE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6ECD4FA293F063E7FE313357BCDA65 /* Pods-iOSReact0707Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FFC0F1F8D7D075645271B2FC0139EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA68AC4D3F4AE64BED975179E2411327 /* Pods-iOSReact0707.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47EF93A6FBCCC6F8FD3EF842AAE2A460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6EA9187DE74400F405D62D6E092C5C9 /* Pods-iOSReact0707.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5BCCCCF8B26C3908705C1A40D4333229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69E867C5C58224B08A0CF0D1371C1DC /* Pods-iOSReact0707-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		7C09EDBB306DEFA1063209570B692C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184D47ADC8BE03C0052FAF831173E85E /* Pods-iOSReact0707Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AFC68722148905714165497912F92B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23C057F1F96C71AD1E1B8C9266EB0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAADF6E1DADD256FFDE163E34C84D026 /* Pods-iOSReact0707-tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		C2E27110F6AF6E3837BF89F61EEB77A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32341DC31D70FC3E921B84D968B7369 /* Pods-iOSReact0707-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		F56133604BCF943DE5C612C5FA09DAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD22910002846095E2EB7C6C24B4C3F /* Pods-iOSReact0707-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250EF7537AA06414A0EBCE117D9DBC30 /* Debug */,
+				AFC68722148905714165497912F92B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594FE32E844245D152D0C13D1E4CCF06 /* Build configuration list for PBXNativeTarget "Pods-iOSReact0707Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4A22DB07EDCFFCDFE797C1B5B9FE99 /* Debug */,
+				7C09EDBB306DEFA1063209570B692C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC983F6A75FB302A43618CA527C7A70 /* Build configuration list for PBXNativeTarget "Pods-iOSReact0707-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56133604BCF943DE5C612C5FA09DAAD /* Debug */,
+				B23C057F1F96C71AD1E1B8C9266EB0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5E5BA3C1526FD0B6BCE67B5C2027599 /* Build configuration list for PBXNativeTarget "Pods-iOSReact0707" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFC0F1F8D7D075645271B2FC0139EF2 /* Debug */,
+				47EF93A6FBCCC6F8FD3EF842AAE2A460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD33E23B195D7AC4DA84632A24362C3F /* Build configuration list for PBXNativeTarget "Pods-iOSReact0707-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCCCCF8B26C3908705C1A40D4333229 /* Debug */,
+				C2E27110F6AF6E3837BF89F61EEB77A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
